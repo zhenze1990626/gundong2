@@ -1,0 +1,156 @@
+html{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+body{
+    margin:0;
+    padding: 0;
+    height:100%;
+    background: #efefef;
+}
+.header{
+    top:0;
+    width: 100%;
+    height: 3.6rem;
+    position: relative;
+    border-bottom: 1px solid #cbcbcb;
+}
+/*banner图*/
+.focus{
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    max-width: 1080px;
+    height: 4.1rem;
+    overflow: hidden;
+}
+.focus .hd{
+    position: absolute;
+    bottom: 0.35rem;
+    text-align: center;
+    width: 100%;
+    height: .15rem;
+    z-index: 1;
+    
+}
+.focus .hd ul{
+    display: inline-block;
+    padding: .03rem .05rem;
+    vertical-align: top;
+    height: .08rem;
+    font-size: 0;
+    margin-top: -.5rem;
+}
+.focus .hd ul li{
+    display: inline-block;
+    width: .2rem;
+    height: .2rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color:#dfdfdf ;
+    margin: 0 .05rem;
+    vertical-align: top;
+    overflow: hidden;
+}
+.focus .hd ul .on{
+    background: #ffffff;
+}
+.focus .bd{
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+.focus .bd li img{
+    width: 100%;
+    max-width: 1080px;
+    height: 3.38rem;
+    vertical-align:top;
+}
+.focus .bd li a{
+    -webkit-tap-highlight-color:rgba(0, 0, 0, 0); /* 取消链接高亮 */
+}
+/*搜索*/
+.search{
+    width: 100%;
+    height: .8rem;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 10000;
+    display: flex;
+    flex-direction: row;
+}
+.search img{
+    width: .6rem;
+    height: .6rem;
+}
+.white{
+    margin: .1rem .2rem 0 .2rem;
+}
+.message{
+    margin: .1rem .2rem 0 .2rem;
+}
+.car{
+    width: 5.5rem;
+    height: .6rem;
+    background: white;
+    border-radius:.35rem; 
+    font-size: .3rem;
+    color: black;
+    line-height: .6rem;
+    padding-left: .4rem;
+    font-weight: bold;
+    margin-top: .1rem;
+    flex:1;
+}
+.hehe{
+    width: 100%;
+    height: 2000px;
+}
+/*内部*/
+.layout{
+    width: 100%;
+    height: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #c8c8c8;
+    background: #ffffff;
+}
+.layout div{
+    width: 20%;
+    height:1.6rem;
+    display: flex;
+    flex-direction:column;
+     justify-content:center;
+    font-size: .26rem;
+    align-items:center;
+    color:black;
+    text-align: center;
+}
+.tai{
+    width: 1rem;
+    height: 1rem;
+}
+/*热点*/
+.hot{
+    width: 100%;
+    height: .76rem;
+    background: #ffffff;
+    display:flex;
+    flex-direction: row;
+    font-size: .24rem;
+    color: #535353;
+    line-height: .76rem;
+    margin: .16rem 0 .16rem 0;
+    border-bottom: 1px solid #c8c8c8;
+    border-top: 1px solid #c8c8c8; 
+     
+}
+.hot-img{
+    width: 1.15rem;
+    height: .58rem;
+    margin: .09rem .2rem 0 .26rem;
+
+}
